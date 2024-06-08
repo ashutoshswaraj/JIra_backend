@@ -4,7 +4,11 @@ const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
 const app = express();
-var allowlist = ["http://localhost:3000"];
+var allowlist = [
+  "http://localhost:3000",
+  "https://jira-frontened.vercel.app/",
+  "  https://jira-frontened.vercel.app",
+];
 const corsOptions = {
   origin: allowlist,
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",

@@ -6,8 +6,9 @@ const cors = require("cors");
 const app = express();
 var allowlist = [
   "http://localhost:3000",
-  "https://jira-frontened.vercel.app/",
+  "https://jira-frontened-git-master-ashutoshswarajs-projects.vercel.app",
   "  https://jira-frontened.vercel.app",
+  "https://jira-frontened-7hwz0dted-ashutoshswarajs-projects.vercel.app",
 ];
 const corsOptions = {
   origin: allowlist,
